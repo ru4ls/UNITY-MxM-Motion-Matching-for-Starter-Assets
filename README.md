@@ -21,14 +21,14 @@ https://github.com/user-attachments/assets/500b92cc-6f34-4f51-b58b-601321ccae0c
 ## Compatibility (Package Export using)
 
 *   Unity Version: 6.2 (6000.2.12f1) or above
-*   Render Pipeline: URP | HDRP
+*   Render Pipeline: URP
 *   Chinemachine: 3.x
 
 ## Prerequisites
 
 To use this script, you must have the following installed and run in your Unity project:
 
-1.  **[Motion Matching for Unity (MxM)](https://assetstore.unity.com/packages/tools/animation/motion-matching-for-unity-145624)** - (Free)
+1.  **[Motion Matching for Unity (MxM)](https://assetstore.unity.com/packages/tools/animation/motion-matching-for-unity-145624)** - (Free) - **[KNOWN ISSUE](https://github.com/ru4ls/UNITY-MxM-Motion-Matching-for-Starter-Assets?tab=readme-ov-file#known-issues--troubleshooting)**
 2.  **[Starter Assets - Third Person](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)** - (Free)
 3.  **Cinamechine 3.x** Ensure you using the latest Cinemachine version.
 
