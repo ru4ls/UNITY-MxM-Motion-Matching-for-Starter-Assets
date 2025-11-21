@@ -60,6 +60,38 @@ This controller uses a **Procedural Audio System**, meaning you do **not** need 
 
 <img width="1175" height="693" alt="Screenshot 2025-11-21 154517" src="https://github.com/user-attachments/assets/88c75aad-2031-4f75-91a4-3b63ac03a8d2" />
 
+## Known Issues & Troubleshooting
+
+### 1. Compilation Error: `HelpUIControl.cs`
+When installing MxM with newer versions of Unity/Cinemachine, you may encounter a `missing namespace Cinemachine` error in the `HelpUIControl.cs` script.
+
+**Fix:**
+Open `HelpUIControl.cs` and update the following lines to match the new Cinemachine namespace:
+
+*   **Line 5:** Change the using directive.
+    ```csharp
+    // Change from:
+    using Cinemachine;
+    
+    // To:
+    using Unity.Cinemachine;
+    ```
+
+*   **Line 21:** Update the camera variable type.
+    ```csharp
+    // Change from:
+    private CinemachineFreeLook m_freeLookCamera = null;
+
+    // To:
+    private CinemachineCamera m_freeLookCamera = null;
+    ```
+
+### 2. Standard MxM Demo Scenes Not Working
+If you try to play the original demo scenes included with the MxM package, the character may not move. This is because the original demos rely on the **Old Input Manager**, while this project is configured for the **New Input System**.
+
+**Fix:**
+*   **Option A (Recommended):** Ignore the default MxM demos. This Bridge Asset replaces that logic entirely using the New Input System.
+*   **Option B:** If you specifically need to test the original demos, go to **Edit → Project Settings → Player**, find **Active Input Handling**, and change it to **Both**.
 
 ## 📝 License
 
