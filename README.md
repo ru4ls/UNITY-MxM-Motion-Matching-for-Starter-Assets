@@ -8,9 +8,9 @@ https://github.com/user-attachments/assets/500b92cc-6f34-4f51-b58b-601321ccae0c
 
 ## Compatibility (Package Export using)
 
-Unity Version: 6.2 (6000.2.12f1) or above
-Render Pipeline: URP | HDRP
-Chinemachine: 3.x
+*   Unity Version: 6.2 (6000.2.12f1) or above
+*   Render Pipeline: URP | HDRP
+*   Chinemachine: 3.x
 
 ## Prerequisites
 
@@ -25,6 +25,8 @@ Download and Import MxM_Motion_Matching-StarterAssets_v1.0.0.unitypackage into y
 
 [Download the latest .unitypackage here](https://github.com/ru4ls/UNITY-MxM-Motion-Matching-for-Starter-Assets/releases/latest)
 
+<img width="191" height="81" alt="Screenshot 2025-11-21 151125" src="https://github.com/user-attachments/assets/b2a20676-47c2-4569-88b4-a17ad3c0d497" />
+
 ## Controller Setup
 In the `MxMThirdPersonController` inspector:
 
@@ -32,6 +34,8 @@ In the `MxMThirdPersonController` inspector:
 *   **MxM Profiles:** Assign your General, Strafe, and Sprint profiles.
 *   **MxM Events:** Assign your Jump, Slide, and Dance event definitions.
 *   **Input Actions:** Drag your specific `InputActionReference` assets for Strafe, Slide, and Dance.
+*   
+<img width="372" height="754" alt="Screenshot 2025-11-21 154410" src="https://github.com/user-attachments/assets/58b318ef-5d02-4d25-a5e1-dad7b9626c3b" />
 
 ## Audio Setup
 
@@ -53,6 +57,9 @@ This controller uses a **Procedural Audio System**, meaning you do **not** need 
 | **Jump** | Space / South Button |
 | **Strafe** | Tab / Right Trigger (Requires binding) |
 | **Slide** | X / East Button (Requires binding) |
+
+<img width="1175" height="693" alt="Screenshot 2025-11-21 154517" src="https://github.com/user-attachments/assets/88c75aad-2031-4f75-91a4-3b63ac03a8d2" />
+
 
 ## 📝 License
 
