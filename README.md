@@ -1,8 +1,20 @@
 # MxM Motion Matching x Third Person Controller (Starter Assets Bridge)
 
-A custom character controller script that seamlessly bridges **Unity's Starter Assets (New Input System)** with the **Motion Matching (MxM)** animation system. 
+Motion Matching (MxM) has long been one of the most powerful animation tools for Unity. However, with the asset effectively unsupported recently, getting it to run smoothly with modern standards has become a challenge.
 
-This controller replaces the default logic to allow MxM to handle animation, trajectory, and root motion, while retaining the robust camera and input handling from Unity's Starter Assets.
+Many of us have hit walls trying to get it working with the New Input System or the latest Cinemachine updates.
+
+To help the community keep utilizing this incredible tech, I’ve built an open-source bridge that integrates MxM directly with Unity’s standard Starter Assets Controller.
+
+It solves the import errors and modernizes the workflow so you can focus on gameplay, not debugging.
+
+Key features:
+✅ Tested using Latest UNITY 6.2 LTS
+✅ Full support for Unity’s New Input System
+✅ Updated compatibility for Cinemachine 3.x
+✅ Includes a working Demo Scene to help you learn the setup
+
+If you are looking to study MxM Motion Matching or implement it into your current project, I hope this saves you some time!
 
 https://github.com/user-attachments/assets/500b92cc-6f34-4f51-b58b-601321ccae0c
 
