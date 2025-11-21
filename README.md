@@ -18,6 +18,7 @@ To use this script, you must have the following installed and run in your Unity 
 
 1.  **[Motion Matching for Unity (MxM)](https://assetstore.unity.com/packages/tools/animation/motion-matching-for-unity-145624)** - (Free)
 2.  **[Starter Assets - Third Person](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)** - (Free)
+3.  **Cinamechine 3.x** Ensure you using the latest Cinemachine version.
 
 ## Download & Import
 
