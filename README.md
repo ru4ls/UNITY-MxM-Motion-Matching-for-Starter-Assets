@@ -19,7 +19,7 @@ To use this script, you must have the following installed and run in your Unity 
 1.  **[Motion Matching for Unity (MxM)](https://assetstore.unity.com/packages/tools/animation/motion-matching-for-unity-145624)** - (Free)
 2.  **[Starter Assets - Third Person](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)** - (Free)
 
-## Download
+## Download & Import
 
 Download and Import MxM_Motion_Matching-StarterAssets_v1.0.0.unitypackage into your project.
 
@@ -27,7 +27,11 @@ Download and Import MxM_Motion_Matching-StarterAssets_v1.0.0.unitypackage into y
 
 <img width="191" height="81" alt="Screenshot 2025-11-21 151125" src="https://github.com/user-attachments/assets/b2a20676-47c2-4569-88b4-a17ad3c0d497" />
 
-## Controller Setup
+## Play Demo
+
+Open Scene/Demo-Playground and hot play button.
+
+## Controller Pre-Setup
 In the `MxMThirdPersonController` inspector:
 
 *   **Cinemachine Camera Target:** Drag your camera target object here.
@@ -37,7 +41,7 @@ In the `MxMThirdPersonController` inspector:
 *   
 <img width="372" height="754" alt="Screenshot 2025-11-21 154410" src="https://github.com/user-attachments/assets/58b318ef-5d02-4d25-a5e1-dad7b9626c3b" />
 
-## Audio Setup
+## Audio Pre-Setup
 
 This controller uses a **Procedural Audio System**, meaning you do **not** need to add Animation Events to your clips.
 
@@ -47,7 +51,7 @@ This controller uses a **Procedural Audio System**, meaning you do **not** need 
     *   *If footsteps play too fast, increase this number.*
     *   *If footsteps play too slow, decrease this number.*
 
-## 🕹️ Controls
+## 🕹️ Controls Pre-Setup
 
 | Action | Input (Default) |
 | :--- | :--- |
