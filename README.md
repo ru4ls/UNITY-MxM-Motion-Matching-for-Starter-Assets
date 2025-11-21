@@ -4,9 +4,17 @@ A custom character controller script that seamlessly bridges **Unity's Starter A
 
 This controller replaces the default logic to allow MxM to handle animation, trajectory, and root motion, while retaining the robust camera and input handling from Unity's Starter Assets.
 
+https://github.com/user-attachments/assets/500b92cc-6f34-4f51-b58b-601321ccae0c
+
+## Compatibility (Package Export using)
+
+Unity Version: 6.2 (6000.2.12f1) or above
+Render Pipeline: URP | HDRP
+Chinemachine: 3.x
+
 ## Prerequisites
 
-To use this script, you must have the following installed in your Unity project:
+To use this script, you must have the following installed and run in your Unity project:
 
 1.  **[Motion Matching for Unity (MxM)](https://assetstore.unity.com/packages/tools/animation/motion-matching-for-unity-145624)** - (Free)
 2.  **[Starter Assets - Third Person](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)** - (Free)
