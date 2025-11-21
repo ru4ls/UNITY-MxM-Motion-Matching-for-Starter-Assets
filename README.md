@@ -1,17 +1,8 @@
-# MxM Third Person Controller (Starter Assets Bridge)
+# MxM Motion Matching x Third Person Controller (Starter Assets Bridge)
 
 A custom character controller script that seamlessly bridges **Unity's Starter Assets (New Input System)** with the **Motion Matching (MxM)** animation system. 
 
 This controller replaces the default logic to allow MxM to handle animation, trajectory, and root motion, while retaining the robust camera and input handling from Unity's Starter Assets.
-
-## Features
-
-*   **New Input System Integration:** Uses `StarterAssetsInputs` to drive Motion Matching.
-*   **All-in-One Logic:** Handles Movement, Camera Rotation, Actions, and Audio in a single script.
-*   **Procedural Footstep System:** Distance-based footstep sounds (no Animation Events required).
-*   **Smart Landing Logic:** Detects landing impacts with "debounce" timers to prevent physics jitter/double sounds.
-*   **Camera Pitch Fix:** Custom trajectory calculation ensures the character moves correctly even when the camera is looking down (fixes the common MxM "W/S stuck" bug).
-*   **Action Support:** Built-in logic for Sprinting, Strafing, Jumping, Sliding, and Dancing.
 
 ## Prerequisites
 
@@ -19,7 +10,12 @@ To use this script, you must have the following installed in your Unity project:
 
 1.  **[Motion Matching for Unity (MxM)](https://assetstore.unity.com/packages/tools/animation/motion-matching-for-unity-145624)** - (Free)
 2.  **[Starter Assets - Third Person](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526)** - (Free)
-3. Download the package and import it into your project.
+
+## Download
+
+Download and Import MxM_Motion_Matching-StarterAssets_v1.0.0.unitypackage into your project.
+
+[Download the latest .unitypackage here](https://github.com/ru4ls/UNITY-MxM-Motion-Matching-for-Starter-Assets/releases/latest)
 
 ## Controller Setup
 In the `MxMThirdPersonController` inspector:
@@ -54,4 +50,4 @@ This controller uses a **Procedural Audio System**, meaning you do **not** need 
 
 This project is open source and available under the [MIT License](LICENSE).
 
-*Note: This script relies on the Starter Assets and MxM packages, which are subject to their own licenses.*
+*Note: This script relies on the Unity Starter Assets and MxM Motion Matching packages, which are subject to their own licenses.*
